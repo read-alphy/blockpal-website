@@ -42,7 +42,7 @@ export default function Home() {
         </a>
       </div> */}
 
-      <video className="mt-10" width={900} height={600} autoPlay loop >
+      <video className="mt-10" width={900} height={600} autoPlay={true} loop={true} >
         <source src="/demo.mp4" type="video/mp4" />
       </video>
 
